@@ -1,0 +1,12 @@
+.container{
+    border: 2px solid black;
+    border-radius: 2em;
+    margin-top: 2em;
+}
+.row, table{
+    padding: 1em;
+}
+
+.new-name-row{
+    margin: 0 6vw;
+}
