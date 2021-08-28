@@ -48,7 +48,11 @@ app.post('/removeStudent', (req, res) =>{
     let student = req.body;
     console.log(student)
     let {students} = db.data;
-    students.pop(student);
+    for(let i = 0; i < students.length; i++){
+        if(student.id == students[i].id){
+            students.splice(i,1);
+        }
+    }
     db.write().then(()=>{
         res.send(db.data);
     })
