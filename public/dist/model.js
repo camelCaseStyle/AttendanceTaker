@@ -3,6 +3,8 @@ const Model ={
     getAllStudentsURI: '/getAllStudents',
     addStudentURI: '/addStudent',
     getExcelURI: '/generateExcelFile',
+    deleteStudentURI: '/removeStudent',
+    updateStudentURI: '/updateStudent',
     data: {
         students:[]
     },
@@ -12,19 +14,19 @@ const Model ={
             return response.json();
         }).then((data)=>{
             this.data.students = data.students;
-            console.log(this.data.students)
-            console.log(this.data.students) 
             let event = new CustomEvent('modelUpdated');
             window.dispatchEvent(event);
         })
     },
     getAllStudents: function(){
-        return this.data.students;
+        return this.data.students.filter(student => student.id);
     },
     getAStudent: function(id){
-        this.data.students.forEach(student =>{
-            if(student.id == id) return student; 
-        })
+        for(let i = 0; i < this.data.students.length; i++){
+            if(id == this.data.students[i].id){
+                return this.data.students[i];
+            }
+        }
     },
     addStudent: function(student){
         fetch(this.addStudentURI,{
@@ -35,8 +37,7 @@ const Model ={
             body: JSON.stringify(student)
         }).then(response =>{
             return response.json()
-        }).then(data =>{
-            
+        }).then(data=>{
             let event = new CustomEvent('studentAdded');
             window.dispatchEvent(event);
         })
@@ -51,7 +52,33 @@ const Model ={
                 }
             } 
         })
-        console.log(this.data.students)
+        let student = this.getAStudent(id);
+        fetch(this.updateStudentURI,{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            }, 
+            body: JSON.stringify(student)
+        }).then(response =>{
+            return response.json()
+        }).then(data=>{
+            let event = new CustomEvent('studentUpdated');
+            window.dispatchEvent(event);
+        })
+    },
+    deleteStudent: function(student){
+        fetch(this.deleteStudentURI,{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            }, 
+            body: JSON.stringify(student)
+        }).then(response =>{
+            return response.json()
+        }).then(data=>{
+            let event = new CustomEvent('studentDeleted');
+            window.dispatchEvent(event);
+        })
     },
     getExcelFile: function(){
         let wb = XLSX.utils.book_new();

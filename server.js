@@ -1,9 +1,6 @@
 import express from 'express';
 import { Low, JSONFile } from 'lowdb'
 import { join, dirname } from 'path'
-import XLSX from 'xlsx';
-
-
 
 
 const __dirname = dirname('db.json');
@@ -18,13 +15,41 @@ app.use(express.static('public'));
 app.use(express.json());
 
 app.get("/getAllStudents", (req, res) =>{
-    console.log(db.data.students)
-    res.send(db.data)
+    console.log(db.data.students);
+    res.send(db.data);
 })
 
-function s2ab(s) {
-    var buf = new ArrayBuffer(s.length);
-    var view = new Uint8Array(buf);
-    for (var i=0; i<s.length; i++) view[i] = s.charCodeAt(i) & 0xFF;
-    return buf;
-}
+
+app.post('/addStudent', (req, res) =>{
+    let student = req.body; 
+    let {students} = db.data;
+    students.push(student);
+    db.write().then(()=>{
+        res.send(db.data);
+    })
+
+})
+
+app.post('/updateStudent', (req, res) =>{
+    let student = req.body; 
+    let {students} = db.data;
+    for(let i = 0; i < students.length; i++){
+        if(student.id == students[i].id){
+            students[i].Present = student.Present;
+        }
+    }
+    db.write().then(()=>{
+        res.send(db.data);
+    })
+
+})
+
+app.post('/removeStudent', (req, res) =>{
+    let student = req.body;
+    console.log(student)
+    let {students} = db.data;
+    students.pop(student);
+    db.write().then(()=>{
+        res.send(db.data);
+    })
+})
