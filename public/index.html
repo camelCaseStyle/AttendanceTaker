@@ -9,7 +9,7 @@
     <link href="./stylesheets/main.css" rel="stylesheet">
     <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/dist/excelConv.js" defer></script>
+    <script src="/dist/frontend.js" defer></script>
     <title>Attendance Taker</title>
 </head>
 <body>
@@ -17,8 +17,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="/#">Attendance Taker</a>
           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <input class="form-control me-2" id="search" type="search" placeholder="Search" aria-label="Search">
           </form>
         </div>
       </nav>
@@ -45,17 +44,17 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr class="name-row">
                 <td>Mark</td>
                 <td>Otto</td>
                 <td><input class="form-check-input" type="checkbox" value="" id="defaultCheck1"></td>
               </tr>
-              <tr>
+              <tr class="name-row">
                 <td>Jacob</td>
                 <td>Thornton</td>
                 <td><input class="form-check-input" type="checkbox" value="" id="defaultCheck1"></td>
               </tr>
-              <tr>
+              <tr class="name-row">
                 <td>Jacob</td>
                 <td>Thornton</td>
                 <td><input class="form-check-input" type="checkbox" value="" id="defaultCheck1"></td>
