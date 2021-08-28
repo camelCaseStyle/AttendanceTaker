@@ -10,3 +10,17 @@
 .new-name-row{
     margin: 0 6vw;
 }
+@media(max-width:750px){
+    body{
+        padding: 1px;
+    }
+    .new-name-row{
+        margin: auto;
+    }
+    .new-name-row > div{
+        margin: 2px;
+    } 
+    #submit{
+        width: 100%;
+    }
+}
