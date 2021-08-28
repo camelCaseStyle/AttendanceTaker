@@ -23,12 +23,12 @@ function search_table(){
   
     // Loop through all table rows, and hide those who don't match the search query
     for (i = 0; i < tr.length; i++) {
-      td = tr[i].getElementsByTagName("td") ; 
-      for(j=0 ; j<td.length ; j++)
+      td = tr[i].getElementsByTagName("td"); 
+      for(let j=0 ; j<td.length ; j++)
       {
-        let tdata = td[j] ;
+        let tdata = td[j].innerText.replace(/ /g,'');
         if (tdata) {
-          if (tdata.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          if (tdata.toUpperCase().indexOf(filter) > -1) {
             tr[i].style.display = "";
             break ; 
           } else {

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "takes attendance of students and exports file to excel ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node index.js"
   },
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/camelCaseStyle/AttendanceTaker#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "lowdb": "^2.1.0",
+    "xlsx": "^0.17.1"
   }
 }
