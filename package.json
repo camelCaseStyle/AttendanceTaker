@@ -1,0 +1,22 @@
+{
+  "name": "attendancetaker",
+  "version": "1.0.0",
+  "description": "takes attendance of students and exports file to excel ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camelCaseStyle/AttendanceTaker.git"
+  },
+  "author": "Anubhav Ashish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camelCaseStyle/AttendanceTaker/issues"
+  },
+  "homepage": "https://github.com/camelCaseStyle/AttendanceTaker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
