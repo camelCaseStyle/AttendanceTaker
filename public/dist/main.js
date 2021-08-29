@@ -52,16 +52,18 @@ function checkBoxClicked(e){
     console.log(this.dataset.id);
     let checkBoxPresent = document.getElementById(`defaultCheck${this.dataset.id}`);
     let checkBoxParticipation = document.getElementById(`defaultParticipation${this.dataset.id}`);
+    let student = Model.getAStudent(this.dataset.id);
     if(checkBoxPresent.checked){
-        Model.updatePresent(this.dataset.id, true);
+        student.Present = 1; 
     }else{
-        Model.updatePresent(this.dataset.id, false);
+        student.Present = 0; 
     }
     if(checkBoxParticipation.checked){
-        Model.updateParticipation(this.dataset.id, true);
+        student.Participation = 1;
     }else{
-        Model.updateParticipation(this.dataset.id, false);
+        student.Participation = 0;
     }
+    Model.updateStudent(student);
 }
 function addStudent(e){
     e.preventDefault();
@@ -104,8 +106,10 @@ function clearAll(e){
     e.preventDefault();
     for(let i = 0; i < checkBoxesPresent.length; i++){
         checkBoxesPresent[i].checked = false; 
-        checkBoxesParticpation[i].checked = false;   
-        Model.updatePresent(checkBoxesPresent[i].dataset.id, false);
-        Model.updateParticipation(checkBoxesParticpation[i].dataset.id, false);
+        checkBoxesParticpation[i].checked = false; 
+        let student = Model.getAStudent(checkBoxesPresent[i].dataset.id);
+        student.Participation = 0; 
+        student.Present = 0;   
+        Model.updateStudent(student);
     }
 }

@@ -4,22 +4,22 @@
       "firstName": "Christopher",
       "lastName": "Walkins",
       "id": 1630165861307,
-      "Present": 0,
+      "Present": 1,
       "Participation": 0
     },
     {
       "firstName": "James",
       "lastName": "Walker",
       "id": 1630165868691,
-      "Present": 0,
-      "Participation": 0
+      "Present": 1,
+      "Participation": 1
     },
     {
       "firstName": "David",
       "lastName": "Beckham",
       "id": 1630165881304,
       "Present": 0,
-      "Participation": 0
+      "Participation": 1
     },
     {
       "firstName": "Victoria",
