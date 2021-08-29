@@ -30,4 +30,21 @@ td, th{
         flex-direction: column;
         justify-content: space-around;
     }
+    td:nth-child(5),th:nth-child(5){
+        display: none;
+    }
+    table{
+        padding: 0px;
+        font-size: 14px;
+    }
+
 }
+
+@media (max-width : 320px) { 
+        td:nth-child(5),th:nth-child(5){
+            display: none;
+        }
+        table{
+            font-size: 11px;
+        }
+    }
