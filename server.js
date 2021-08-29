@@ -35,7 +35,7 @@ app.post('/updateStudent', (req, res) =>{
     let {students} = db.data;
     for(let i = 0; i < students.length; i++){
         if(student.id == students[i].id){
-            students[i].Present = student.Present;
+            students[i] = student;
         }
     }
     db.write().then(()=>{

@@ -27,9 +27,11 @@ function loadPage(){
 function bindings(){
     let genExcelButton = document.getElementById('export-to-excel');
     genExcelButton.addEventListener('click', generateExcelFile);
-    let checkBoxes = document.getElementsByClassName('form-check-input');
+    let checkBoxes = document.getElementsByClassName('present');
+    let partipationCheckboxes = document.getElementsByClassName('participation');
     for(let i = 0; i < checkBoxes.length; i++){
         checkBoxes[i].addEventListener('click', checkBoxClicked);
+        partipationCheckboxes[i].addEventListener('click', checkBoxClicked);
     }
     let addStudentButton = document.getElementById('add-student');
     addStudentButton.addEventListener('submit', addStudent);
@@ -38,7 +40,7 @@ function bindings(){
         deleteButtons[i].addEventListener('click', deleteButtonClicked);
     }
     let clearAttendance = document.getElementById('clear-attendance');
-    if(clearAttendance) clearAttendance.addEventListener('click',clearAttendanceAll)
+    if(clearAttendance) clearAttendance.addEventListener('click',clearAll)
     applyCheckBoxes();
 }
 
@@ -48,11 +50,17 @@ function generateExcelFile(){
 
 function checkBoxClicked(e){
     console.log(this.dataset.id);
-    let checkBox = document.getElementById(`defaultCheck${this.dataset.id}`);
-    if(checkBox.checked){
+    let checkBoxPresent = document.getElementById(`defaultCheck${this.dataset.id}`);
+    let checkBoxParticipation = document.getElementById(`defaultParticipation${this.dataset.id}`);
+    if(checkBoxPresent.checked){
         Model.updatePresent(this.dataset.id, true);
     }else{
         Model.updatePresent(this.dataset.id, false);
+    }
+    if(checkBoxParticipation.checked){
+        Model.updateParticipation(this.dataset.id, true);
+    }else{
+        Model.updateParticipation(this.dataset.id, false);
     }
 }
 function addStudent(e){
@@ -74,22 +82,30 @@ function deleteButtonClicked(e){
     Model.deleteStudent(student);
 }
 function applyCheckBoxes(){
-    let checkBoxes = document.getElementsByClassName('form-check-input');
-    for(let i = 0; i < checkBoxes.length; i++){
-        let student = Model.getAStudent(checkBoxes[i].dataset.id);
+    let checkBoxesPresent = document.getElementsByClassName('present');
+    let checkBoxesParticpation = document.getElementsByClassName('participation');
+    for(let i = 0; i < checkBoxesPresent.length; i++){
+        let student = Model.getAStudent(checkBoxesPresent[i].dataset.id);
         if(student.Present == 1){
-            checkBoxes[i].checked = true; 
+            checkBoxesPresent[i].checked = true; 
         }else{
-            checkBoxes[i].checked = false; 
+            checkBoxesPresent[i].checked = false; 
+        }
+        if(student.Participation == 1){
+            checkBoxesParticpation[i].checked = true; 
+        }else{
+            checkBoxesParticpation[i].checked = false; 
         }
     }
 }
-function clearAttendanceAll(e){
-    let checkBoxes = document.getElementsByClassName('form-check-input');
+function clearAll(e){
+    let checkBoxesPresent = document.getElementsByClassName('present');
+    let checkBoxesParticpation = document.getElementsByClassName('participation');
     e.preventDefault();
-    for(let i = 0; i < checkBoxes.length; i++){
-        let student = Model.getAStudent(checkBoxes[i].dataset.id);
-        checkBoxes[i].checked = false;    
-        Model.updatePresent(checkBoxes[i].dataset.id, false);
+    for(let i = 0; i < checkBoxesPresent.length; i++){
+        checkBoxesPresent[i].checked = false; 
+        checkBoxesParticpation[i].checked = false;   
+        Model.updatePresent(checkBoxesPresent[i].dataset.id, false);
+        Model.updateParticipation(checkBoxesParticpation[i].dataset.id, false);
     }
 }

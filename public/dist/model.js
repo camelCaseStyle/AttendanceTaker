@@ -66,6 +66,30 @@ const Model ={
             window.dispatchEvent(event);
         })
     },
+    updateParticipation: function(id, isParticpating){
+        this.data.students.forEach(student =>{
+            if(student.id == id){
+                if(isParticpating){
+                    student.Participation = 1;
+                }else{
+                    student.Participation  = 0;
+                }
+            } 
+        })
+        let student = this.getAStudent(id);
+        fetch(this.updateStudentURI,{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            }, 
+            body: JSON.stringify(student)
+        }).then(response =>{
+            return response.json()
+        }).then(data=>{
+            let event = new CustomEvent('studentUpdated');
+            window.dispatchEvent(event);
+        })
+    },
     deleteStudent: function(student){
         fetch(this.deleteStudentURI,{
             method: 'POST',

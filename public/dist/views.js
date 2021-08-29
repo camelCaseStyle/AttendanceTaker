@@ -3,7 +3,6 @@ export {Views};
 
 const Views = {
     MainPageView: function(students){
-        console.log(students)
         applyTemplate('students-list', 'students-list-template', {students:students});
     }
 }
