@@ -37,6 +37,8 @@ function bindings(){
     for(let i = 0; i < deleteButtons.length; i++){
         deleteButtons[i].addEventListener('click', deleteButtonClicked);
     }
+    let clearAttendance = document.getElementById('clear-attendance');
+    if(clearAttendance) clearAttendance.addEventListener('click',clearAttendanceAll)
     applyCheckBoxes();
 }
 
@@ -80,5 +82,14 @@ function applyCheckBoxes(){
         }else{
             checkBoxes[i].checked = false; 
         }
+    }
+}
+function clearAttendanceAll(e){
+    let checkBoxes = document.getElementsByClassName('form-check-input');
+    e.preventDefault();
+    for(let i = 0; i < checkBoxes.length; i++){
+        let student = Model.getAStudent(checkBoxes[i].dataset.id);
+        checkBoxes[i].checked = false;    
+        Model.updatePresent(checkBoxes[i].dataset.id, false);
     }
 }

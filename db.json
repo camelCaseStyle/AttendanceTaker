@@ -4,67 +4,67 @@
       "firstName": "Christopher",
       "lastName": "Walkins",
       "id": 1630165861307,
-      "Present": 1
+      "Present": 0
     },
     {
       "firstName": "James",
       "lastName": "Walker",
       "id": 1630165868691,
-      "Present": 1
+      "Present": 0
     },
     {
       "firstName": "David",
       "lastName": "Beckham",
       "id": 1630165881304,
-      "Present": 1
+      "Present": 0
     },
     {
       "firstName": "Victoria",
       "lastName": "Beckham",
       "id": 1630165888495,
-      "Present": 1
-    },
-    {
-      "firstName": "Clint",
-      "lastName": "Eastwood",
-      "id": 1630165933625,
-      "Present": 1
+      "Present": 0
     },
     {
       "firstName": "Kimi",
       "lastName": "Raikkonnen",
       "id": 1630166842196,
-      "Present": 1
+      "Present": 0
     },
     {
       "firstName": "George",
       "lastName": "Russell",
       "id": 1630166849270,
-      "Present": 1
+      "Present": 0
     },
     {
       "firstName": "Gordon",
       "lastName": "Ramsay",
       "id": 1630166863367,
-      "Present": 1
+      "Present": 0
     },
     {
       "firstName": "Cleo",
       "lastName": "Singh",
       "id": 1630168687718,
-      "Present": 1
+      "Present": 0
     },
     {
       "firstName": "Anubhav",
       "lastName": "Ashish",
       "id": 1630195539923,
-      "Present": 1
+      "Present": 0
     },
     {
       "firstName": "James",
       "lastName": "Hakka",
       "id": 1630195683458,
-      "Present": 1
+      "Present": 0
+    },
+    {
+      "firstName": "Clint",
+      "lastName": "Eastwood",
+      "id": 1630203297192,
+      "Present": 0
     }
   ]
 }
