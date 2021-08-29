@@ -61,6 +61,8 @@ function addStudent(e){
         id: Date.now(),
         Present: 1
     }
+    let addStudentForm = document.getElementById('add-student');
+    addStudentForm.reset();
     Model.addStudent(student);
 }
 
