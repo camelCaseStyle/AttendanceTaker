@@ -1,3 +1,12 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+}
 .container{
     border: 2px solid black;
     border-radius: 2em;
@@ -19,6 +28,29 @@ td, th{
 .delete-button:hover{
     color: red;
 }
+/* Landscape */
+
+/* Landscape iPhonex */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    td:nth-child(5),th:nth-child(5){
+        display: table-cell;
+    }
+    
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .container{
+        border: 0;
+    }
+    
+}
 @media(max-width:750px){
     body{
         padding: 1px;
@@ -36,9 +68,7 @@ td, th{
         flex-direction: column;
         justify-content: space-around;
     }
-    td:nth-child(5),th:nth-child(5){
-        display: none;
-    }
+   
     table{
         padding: 0px;
         font-size: 14px;
@@ -46,11 +76,11 @@ td, th{
 
 }
 
-@media (max-width : 320px) { 
+@media (max-width : 420px) { 
         td:nth-child(5),th:nth-child(5){
             display: none;
         }
         table{
             font-size: 11px;
         }
-    }
+}
