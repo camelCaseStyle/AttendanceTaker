@@ -19,7 +19,6 @@
   "homepage": "https://github.com/camelCaseStyle/AttendanceTaker#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "lowdb": "^2.1.0",
-    "xlsx": "^0.17.1"
+    "lowdb": "^2.1.0"
   }
 }
