@@ -13,6 +13,12 @@
 td, th{
     text-align: center;
 }
+.form-check-input {
+    font-size: 22px;
+}
+.delete-button:hover{
+    color: red;
+}
 @media(max-width:750px){
     body{
         padding: 1px;
