@@ -2,8 +2,14 @@ export {Views};
 
 
 const Views = {
-    MainPageView: function(students){
-        applyTemplate('students-list', 'students-list-template', {students:students});
+    AttendanceView: function(students){
+        
+        applyTemplate('container', 'students-list-template', {students:students});
+    },
+    WeekView : function(weeks){
+        console.log(weeks)
+        weeks.sort((a,b) => a-b);
+        applyTemplate('container', 'weeks-list-template', {weeks:weeks});
     }
 }
 

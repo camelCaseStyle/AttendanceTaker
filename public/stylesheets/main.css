@@ -39,6 +39,7 @@ td, th{
     td:nth-child(5),th:nth-child(5){
         display: table-cell;
     }
+
     
 }
 @media only screen 
@@ -49,7 +50,9 @@ td, th{
     .container{
         border: 0;
     }
-    
+    div > .week-list{
+        width: 76%;
+    }
 }
 @media(max-width:750px){
     body{
@@ -73,6 +76,9 @@ td, th{
         padding: 0px;
         font-size: 14px;
     }
+    div > .week-list{
+        width: 76%;
+    }
 
 }
 
@@ -83,4 +89,25 @@ td, th{
         table{
             font-size: 14px;
         }
+        div > .week-list{
+            width: 76%;
+        }
+}
+
+.week-list{
+    text-decoration: underline;
+    border-radius: 0.5rem ;
+    height: 4em;
+    margin: 1vh;
+    color: #fff;
+    background-color: var(--bs-blue);
+    text-align: center;
+    padding-top: 1.2em;   
+    width: 30%;
+    text-decoration: none; 
+    margin: 10px auto ;
+}
+
+.week-list:hover{
+    color: aliceblue;
 }

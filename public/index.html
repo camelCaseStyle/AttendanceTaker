@@ -25,52 +25,60 @@
           </form>
         </div>
       </nav>
-    <div class="container">
-        <form class="row" id="add-student">
-            <div class="new-name-row row">
-                <div class="col-lg-3 col-md-3 col-sm-12">
-                  <input type="text" class="form-control" placeholder="First name" aria-label="First name" name="firstName" required>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12">
-                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" name="lastName" required>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12">
-                    <button id="submit" type="submit" class="btn btn-primary">Add student</button>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12">
-                  <button id="clear-attendance" type="submit" class="btn btn-danger">Clear all</button>
-              </div>
-              </div>
-          </form>
-        <table class="table" id="attendance-table">
-            <thead>
-              <tr>
-                <th scope="col">First name</th>
-                <th scope="col">Last name</th>
-                <th scope="col">Present</th>
-                <th scope="col">Class participation</th>
-                <th scope="col"></th>
-              </tr>
-              <tbody id="students-list"></tbody>
-            </thead>
-          </table>
-
-          <div class="row">
-              <button type="button" id="export-to-excel"class="btn btn-outline-primary">Export to excel!</button>
-          </div>
+    <div class="container" id='container'>
+        
     </div>
   <script id="students-list-template" type="text/x-handlebars-template">
-    
-      {{#each students}}
-        <tr class="name-row">
-          <td class="firstName">{{this.firstName}}</td>
-          <td class="lastName">{{this.lastName}}</td>
-          <td class="center-td"><input class="form-check-input present" type="checkbox" value="" id="defaultCheck{{this.id}}" data-id={{this.id}}></td>
-          <td class="center-td"><input class="form-check-input participation" type="checkbox" value="" id="defaultParticipation{{this.id}}" data-id={{this.id}}></td>
-          <td class="center-td"><button class ="btn delete-button" data-id={{this.id}}><i class="far fa-trash-alt" data-id={{this.id}}></i></button></td>
+    <form class="row" id="add-student">
+      <div class="new-name-row row">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name" name="firstName" required>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" name="lastName" required>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+              <button id="submit" type="submit" class="btn btn-primary">Add student</button>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <button id="clear-attendance" type="submit" class="btn btn-danger">Clear all</button>
+        </div>
+        </div>
+    </form>
+  <table class="table" id="attendance-table">
+      <thead>
+        <tr>
+          <th scope="col">First name</th>
+          <th scope="col">Last name</th>
+          <th scope="col">Present</th>
+          <th scope="col">Class participation</th>
+          <th scope="col"></th>
         </tr>
-      {{/each}}
+        <tbody id="students-list">
+          {{#each students}}
+            <tr class="name-row">
+              <td class="firstName">{{this.firstName}}</td>
+              <td class="lastName">{{this.lastName}}</td>
+              <td class="center-td"><input class="form-check-input present" type="checkbox" value="" id="defaultCheck{{this.id}}" data-id={{this.id}}></td>
+              <td class="center-td"><input class="form-check-input participation" type="checkbox" value="" id="defaultParticipation{{this.id}}" data-id={{this.id}}></td>
+              <td class="center-td"><button class ="btn delete-button" data-id={{this.id}}><i class="far fa-trash-alt" data-id={{this.id}}></i></button></td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </thead>
+    </table>
 
+    <div class="row">
+        <button type="button" id="export-to-excel"class="btn btn-outline-primary">Export to excel!</button>
+    </div>
+
+  </script>
+  <script id="weeks-list-template" type="text/x-handlebars-template">
+    <div class="list-group">
+      {{#each weeks}}
+      <a href="#!/week/{{this}}" class="week-list" id="list" data-id="{{this}}">Week {{this}}</a>
+      {{/each}}        
+    </div>  
   </script>
 
 </body>

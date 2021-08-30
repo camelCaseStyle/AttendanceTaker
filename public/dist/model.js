@@ -70,14 +70,32 @@ const Model ={
             window.dispatchEvent(event);
         })
     },
-    getExcelFile: function(){
+    getExcelFile: function(weekId){
         let wb = XLSX.utils.book_new();
-        let ws = XLSX.utils.json_to_sheet(this.data.students);
+        let ws = XLSX.utils.json_to_sheet(this.data.students.filter(student => student.week == weekId));
         XLSX.utils.book_append_sheet(wb, ws, 'attendance');
         XLSX.writeFile(wb,`Attendance${Date(new Date().toLocaleString("en-US"))}.xlsx`, {
             type: 'file',
             bookType: 'xlsx',
         });
+    },
+    getWeeksList: function(){
+        let numberOfWeeks = []; 
+        this.data.students.forEach(student =>{
+            if(!numberOfWeeks.includes(student.week)){
+                numberOfWeeks.push(student.week)
+            }
+        })
+        return numberOfWeeks;
+    },
+    getAllStudentsByWeek: function(weekId){
+        let students = []; 
+        this.data.students.forEach(student =>{
+            if(student.week == weekId){
+                students.push(student);
+            }
+        })
+        return students;
     }
     
 }

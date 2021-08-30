@@ -1,5 +1,6 @@
 import {Model} from './model.js';
 import {Views} from './views.js';
+import {Util} from './util.js';
 
 window.onload = function() {
     Model.load(); 
@@ -21,12 +22,20 @@ window.addEventListener('studentUpdated', ()=>{
     Model.load();
 })
 function loadPage(){
-    Views.MainPageView(Model.getAllStudents());
+    let hash = Util.splitHash(window.location.hash);
+    switch(hash.path){
+        case 'week':
+            Views.AttendanceView(Model.getAllStudentsByWeek(hash.id));
+            break;
+        case '':
+            Views.WeekView(Model.getWeeksList());
+    }
+    bindings();
 }
 
 function bindings(){
     let genExcelButton = document.getElementById('export-to-excel');
-    genExcelButton.addEventListener('click', generateExcelFile);
+    if(genExcelButton) genExcelButton.addEventListener('click', generateExcelFile);
     let checkBoxes = document.getElementsByClassName('present');
     let partipationCheckboxes = document.getElementsByClassName('participation');
     for(let i = 0; i < checkBoxes.length; i++){
@@ -34,18 +43,18 @@ function bindings(){
         partipationCheckboxes[i].addEventListener('click', checkBoxClicked);
     }
     let addStudentButton = document.getElementById('add-student');
-    addStudentButton.addEventListener('submit', addStudent);
+    if(addStudentButton) addStudentButton.addEventListener('submit', addStudent);
     let deleteButtons = document.getElementsByClassName('delete-button')
     for(let i = 0; i < deleteButtons.length; i++){
         deleteButtons[i].addEventListener('click', deleteButtonClicked);
     }
     let clearAttendance = document.getElementById('clear-attendance');
-    if(clearAttendance) clearAttendance.addEventListener('click',clearAll)
+    if(clearAttendance) clearAttendance.addEventListener('click',clearAll);
     applyCheckBoxes();
 }
 
 function generateExcelFile(){
-    Model.getExcelFile();
+    Model.getExcelFile(Util.splitHash(window.location.hash).id);
 }
 
 function checkBoxClicked(e){
@@ -71,7 +80,9 @@ function addStudent(e){
         firstName: this.elements['firstName'].value,
         lastName: this.elements['lastName'].value,
         id: Date.now(),
-        Present: 1
+        Present: 1,
+        Participation: 0,
+        week:Util.splitHash(window.location.hash).id
     }
     let addStudentForm = document.getElementById('add-student');
     addStudentForm.reset();
@@ -112,4 +123,7 @@ function clearAll(e){
         student.Present = 0;   
         Model.updateStudent(student);
     }
+}
+window.onhashchange = function(){
+    loadPage(); 
 }
