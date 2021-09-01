@@ -1,0 +1,268 @@
+{
+  "students": [
+    {
+      "firstName": "Peters",
+      "lastName": "Ramsay",
+      "id": "612ce9ea038f8d4e607c3e63",
+      "Present": 0,
+      "Participation": 0,
+      "week": "7"
+    },
+    {
+      "firstName": "Brooke",
+      "lastName": "Ramsay",
+      "id": "612ce9eacc295ee2cc2952b6",
+      "Present": 0,
+      "Participation": 0,
+      "week": "4"
+    },
+    {
+      "firstName": "Marisa",
+      "lastName": "Ramsay",
+      "id": "612ce9eac823d7c6a33a8530",
+      "Present": 0,
+      "Participation": 0,
+      "week": "2"
+    },
+    {
+      "firstName": "Alexander",
+      "lastName": "Ramsay",
+      "id": "612ce9ea728028b30e4bb3de",
+      "Present": 0,
+      "Participation": 0,
+      "week": "7"
+    },
+    {
+      "firstName": "Kristen",
+      "lastName": "Ramsay",
+      "id": "612ce9ea52da558f40bd767c",
+      "Present": "0",
+      "Participation": "0",
+      "week": "10"
+    },
+    {
+      "firstName": "Ray",
+      "lastName": "Ramsay",
+      "id": "612ce9ea0894b4d19ed5a43b",
+      "Present": "0",
+      "Participation": "0",
+      "week": "3"
+    },
+    {
+      "firstName": "Compton",
+      "lastName": "Ramsay",
+      "id": "612ce9ea04ea56852b597603",
+      "Present": 0,
+      "Participation": 0,
+      "week": "8"
+    },
+    {
+      "firstName": "Margo",
+      "lastName": "Ramsay",
+      "id": "612ce9eadefd37b6c989399c",
+      "Present": "0",
+      "Participation": "0",
+      "week": "10"
+    },
+    {
+      "firstName": "Sloan",
+      "lastName": "Ramsay",
+      "id": "612ce9ea1620282dbc282ef0",
+      "Present": "0",
+      "Participation": "0",
+      "week": "1"
+    },
+    {
+      "firstName": "Matilda",
+      "lastName": "Ramsay",
+      "id": "612ce9ea16a388ae265cbf9f",
+      "Present": 0,
+      "Participation": 0,
+      "week": "4"
+    },
+    {
+      "firstName": "Calhoun",
+      "lastName": "Ramsay",
+      "id": "612ce9eaf1fdd2c589bb9820",
+      "Present": 0,
+      "Participation": 0,
+      "week": "4"
+    },
+    {
+      "firstName": "Howell",
+      "lastName": "Ramsay",
+      "id": "612ce9ead05a9dc5f7f6ce64",
+      "Present": "0",
+      "Participation": "0",
+      "week": "3"
+    },
+    {
+      "firstName": "Tessa",
+      "lastName": "Ramsay",
+      "id": "612ce9ea74e8d011de8bbf6b",
+      "Present": "0",
+      "Participation": "0",
+      "week": "10"
+    },
+    {
+      "firstName": "Shepard",
+      "lastName": "Ramsay",
+      "id": "612ce9ea3aa10b63ab194d55",
+      "Present": "0",
+      "Participation": "0",
+      "week": "10"
+    },
+    {
+      "firstName": "Faith",
+      "lastName": "Ramsay",
+      "id": "612ce9eaa5952d055b34636f",
+      "Present": "0",
+      "Participation": "0",
+      "week": "6"
+    },
+    {
+      "firstName": "Oneill",
+      "lastName": "Ramsay",
+      "id": "612ce9eab2b70fa7944b07b3",
+      "Present": "0",
+      "Participation": "0",
+      "week": "1"
+    },
+    {
+      "firstName": "Castaneda",
+      "lastName": "Ramsay",
+      "id": "612ce9eada6278b2a0719fad",
+      "Present": 0,
+      "Participation": 0,
+      "week": "2"
+    },
+    {
+      "firstName": "Angel",
+      "lastName": "Ramsay",
+      "id": "612ce9ea3b2deda7d1536825",
+      "Present": "0",
+      "Participation": "0",
+      "week": "6"
+    },
+    {
+      "firstName": "Rosanna",
+      "lastName": "Ramsay",
+      "id": "612ce9eac073c2c2a3790978",
+      "Present": 1,
+      "Participation": 1,
+      "week": "5"
+    },
+    {
+      "firstName": "Cameron",
+      "lastName": "Ramsay",
+      "id": "612ce9ea132c59079f40c537",
+      "Present": "0",
+      "Participation": "0",
+      "week": "1"
+    },
+    {
+      "firstName": "Downs",
+      "lastName": "Ramsay",
+      "id": "612ce9ea5c01ec92b975a9b8",
+      "Present": 1,
+      "Participation": 1,
+      "week": "5"
+    },
+    {
+      "firstName": "Cathleen",
+      "lastName": "Ramsay",
+      "id": "612ce9eabb3db282ae9212c6",
+      "Present": 0,
+      "Participation": 0,
+      "week": "4"
+    },
+    {
+      "firstName": "Dorothy",
+      "lastName": "Ramsay",
+      "id": "612ce9eafdaf0725ae913c5f",
+      "Present": 0,
+      "Participation": 0,
+      "week": "7"
+    },
+    {
+      "firstName": "Church",
+      "lastName": "Ramsay",
+      "id": "612ce9eaa8c9e93700b541a4",
+      "Present": 0,
+      "Participation": 0,
+      "week": "2"
+    },
+    {
+      "firstName": "Fuller",
+      "lastName": "Ramsay",
+      "id": "612ce9ea06b398e2ab37c062",
+      "Present": 0,
+      "Participation": 0,
+      "week": "2"
+    },
+    {
+      "firstName": "Alison",
+      "lastName": "Ramsay",
+      "id": "612ce9eaffc2abd10b049bb4",
+      "Present": "0",
+      "Participation": "0",
+      "week": "1"
+    },
+    {
+      "firstName": "Sharpe",
+      "lastName": "Ramsay",
+      "id": "612ce9ea7a7692721e0902f9",
+      "Present": 0,
+      "Participation": 0,
+      "week": "4"
+    },
+    {
+      "firstName": "Lou",
+      "lastName": "Ramsay",
+      "id": "612ce9eadbf17e017fd4ab69",
+      "Present": 0,
+      "Participation": 0,
+      "week": "9"
+    },
+    {
+      "firstName": "Walker",
+      "lastName": "Ramsay",
+      "id": "612ce9ea601e24399a4e3ff1",
+      "Present": 0,
+      "Participation": 0,
+      "week": "2"
+    },
+    {
+      "firstName": "Shelby",
+      "lastName": "Ramsay",
+      "id": "612ce9ea2de552578127aa69",
+      "Present": 0,
+      "Participation": 0,
+      "week": "8"
+    },
+    {
+      "firstName": "Anubhav",
+      "lastName": "Ashish",
+      "id": 1630381830261,
+      "Present": "0",
+      "Participation": "0",
+      "week": "6"
+    },
+    {
+      "firstName": "Danii",
+      "lastName": "Minogue",
+      "id": 1630396431733,
+      "Present": "0",
+      "Participation": "0",
+      "week": "1"
+    },
+    {
+      "firstName": "Gordon",
+      "lastName": "Eastwood",
+      "id": 1630396528332,
+      "Present": 1,
+      "Participation": 0,
+      "week": "9"
+    }
+  ]
+}
