@@ -13,7 +13,6 @@ window.addEventListener('modelUpdated', ()=>{
 });
 window.addEventListener('studentDeleted', () =>{
     Model.load(); 
-    loadPage(); 
 })
 window.addEventListener('studentAdded', () =>{
     Model.load();
