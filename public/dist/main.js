@@ -12,7 +12,7 @@ window.addEventListener('modelUpdated', ()=>{
     bindings();
 });
 window.addEventListener('studentDeleted', () =>{
-    Model.load();
+    loadPage(); 
 })
 window.addEventListener('studentAdded', () =>{
     Model.load();
@@ -115,14 +115,16 @@ function clearAll(e){
     let checkBoxesPresent = document.getElementsByClassName('present');
     let checkBoxesParticpation = document.getElementsByClassName('participation');
     e.preventDefault();
+    let students = [];
     for(let i = 0; i < checkBoxesPresent.length; i++){
         checkBoxesPresent[i].checked = false; 
         checkBoxesParticpation[i].checked = false; 
         let student = Model.getAStudent(checkBoxesPresent[i].dataset.id);
-        student.Participation = 0; 
-        student.Present = 0;   
-        Model.updateStudent(student);
+        student.Participation = '0'; 
+        student.Present = '0';   
+        students.push(student);
     }
+    Model.updateStudent(students);
 }
 window.onhashchange = function(){
     loadPage(); 

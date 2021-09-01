@@ -42,19 +42,25 @@ const Model ={
             window.dispatchEvent(event);
         })
     },
-    updateStudent: function(student){
-        fetch(this.updateStudentURI,{
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            }, 
-            body: JSON.stringify(student)
-        }).then(response =>{
-            return response.json()
-        }).then(data=>{
+    updateStudent: function(students){
+        let promises = [];
+        var students = [].concat(students || []);
+        students.forEach(student =>{
+            promises.push(fetch(this.updateStudentURI,{
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                }, 
+                body: JSON.stringify(student)
+            }).then(response =>{
+                return response.json()
+            }))
+        })
+        Promise.all(promises).then(()=>{
             let event = new CustomEvent('studentUpdated');
             window.dispatchEvent(event);
         })
+        
     },
     deleteStudent: function(student){
         fetch(this.deleteStudentURI,{
