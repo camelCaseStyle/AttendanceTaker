@@ -1,268 +1,2004 @@
 {
   "students": [
     {
-      "firstName": "Peters",
-      "lastName": "Ramsay",
-      "id": "612ce9ea038f8d4e607c3e63",
-      "Present": 0,
-      "Participation": 0,
-      "week": "7"
-    },
-    {
-      "firstName": "Brooke",
-      "lastName": "Ramsay",
-      "id": "612ce9eacc295ee2cc2952b6",
-      "Present": 0,
-      "Participation": 0,
-      "week": "4"
-    },
-    {
-      "firstName": "Marisa",
-      "lastName": "Ramsay",
-      "id": "612ce9eac823d7c6a33a8530",
-      "Present": 0,
-      "Participation": 0,
-      "week": "2"
-    },
-    {
-      "firstName": "Alexander",
-      "lastName": "Ramsay",
-      "id": "612ce9ea728028b30e4bb3de",
-      "Present": 0,
-      "Participation": 0,
-      "week": "7"
-    },
-    {
-      "firstName": "Kristen",
-      "lastName": "Ramsay",
-      "id": "612ce9ea52da558f40bd767c",
+      "firstName": "Yuyu",
+      "lastName": "Ma",
+      "username": "z5122500",
+      "email": "yuyu.ma@student.unsw.edu.au",
       "Present": "0",
       "Participation": "0",
-      "week": "10"
+      "week": 1,
+      "id": 0
     },
     {
-      "firstName": "Ray",
-      "lastName": "Ramsay",
-      "id": "612ce9ea0894b4d19ed5a43b",
+      "firstName": "Leonard",
+      "lastName": "The",
+      "username": "z5190311",
+      "email": "l.the@student.unsw.edu.au",
       "Present": "0",
       "Participation": "0",
-      "week": "3"
+      "week": 1,
+      "id": 1
     },
     {
-      "firstName": "Compton",
-      "lastName": "Ramsay",
-      "id": "612ce9ea04ea56852b597603",
+      "firstName": "Grace",
+      "lastName": "Wong",
+      "username": "z5204812",
+      "email": "grace.wong2@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 2
+    },
+    {
+      "firstName": "Ria",
+      "lastName": "Singh",
+      "username": "z5206196",
+      "email": "ria.singh@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 3
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Chow",
+      "username": "z5206874",
+      "email": "s.chow@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 4
+    },
+    {
+      "firstName": "Bao",
+      "lastName": "Pham",
+      "username": "z5208035",
+      "email": "bao.pham@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 5
+    },
+    {
+      "firstName": "Shuwen",
+      "lastName": "Mai",
+      "username": "z5213023",
+      "email": "shuwen.mai111@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 6
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Liang",
+      "username": "z5207776",
+      "email": "martin.liang1@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 7
+    },
+    {
+      "firstName": "Harinn",
+      "lastName": "Devapragash",
+      "username": "z5214860",
+      "email": "h.devapragash@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 8
+    },
+    {
+      "firstName": "Darsiken",
+      "lastName": "Nagarajan",
+      "username": "z5206603",
+      "email": "d.nagarajan@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 9
+    },
+    {
+      "firstName": "Yuqi",
+      "lastName": "Guo",
+      "username": "z5236463",
+      "email": "yuqi.guo1@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 10
+    },
+    {
+      "firstName": "Leah",
+      "lastName": "Jin",
+      "username": "z5257692",
+      "email": "leah.jin@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 11
+    },
+    {
+      "firstName": "Fiona",
+      "lastName": "Chen",
+      "username": "z5259562",
+      "email": "fiona.chen.1@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 12
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Shao",
+      "username": "z5261820",
+      "email": "zilin.shao@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 13
+    },
+    {
+      "firstName": "Maximilien",
+      "lastName": "Balard",
+      "username": "z5256073",
+      "email": "m.balard@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 14
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Day",
+      "username": "z5255167",
+      "email": "luke.day@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 15
+    },
+    {
+      "firstName": "Henna",
+      "lastName": "Ali",
+      "username": "z5264500",
+      "email": "h.ali@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 16
+    },
+    {
+      "firstName": "Justin Hwee Keat",
+      "lastName": "Lim",
+      "username": "z5181194",
+      "email": "justinhweekeat.lim@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 17
+    },
+    {
+      "firstName": "Bryan Nathaniel",
+      "lastName": "Kartasaputra",
+      "username": "z5281923",
+      "email": "b.kartasaputra@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 18
+    },
+    {
+      "firstName": "Atta",
+      "lastName": "Ng",
+      "username": "z5274069",
+      "email": "tszching.ng@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 1,
+      "id": 19
+    },
+    {
+      "firstName": "Yuyu",
+      "lastName": "Ma",
+      "username": "z5122500",
+      "email": "yuyu.ma@student.unsw.edu.au",
       "Present": 0,
       "Participation": 0,
-      "week": "8"
+      "week": 2,
+      "id": 20
     },
     {
-      "firstName": "Margo",
-      "lastName": "Ramsay",
-      "id": "612ce9eadefd37b6c989399c",
-      "Present": "0",
-      "Participation": "0",
-      "week": "10"
-    },
-    {
-      "firstName": "Sloan",
-      "lastName": "Ramsay",
-      "id": "612ce9ea1620282dbc282ef0",
-      "Present": "0",
-      "Participation": "0",
-      "week": "1"
-    },
-    {
-      "firstName": "Matilda",
-      "lastName": "Ramsay",
-      "id": "612ce9ea16a388ae265cbf9f",
+      "firstName": "Leonard",
+      "lastName": "The",
+      "username": "z5190311",
+      "email": "l.the@student.unsw.edu.au",
       "Present": 0,
       "Participation": 0,
-      "week": "4"
+      "week": 2,
+      "id": 21
     },
     {
-      "firstName": "Calhoun",
-      "lastName": "Ramsay",
-      "id": "612ce9eaf1fdd2c589bb9820",
+      "firstName": "Grace",
+      "lastName": "Wong",
+      "username": "z5204812",
+      "email": "grace.wong2@student.unsw.edu.au",
       "Present": 0,
       "Participation": 0,
-      "week": "4"
+      "week": 2,
+      "id": 22
     },
     {
-      "firstName": "Howell",
-      "lastName": "Ramsay",
-      "id": "612ce9ead05a9dc5f7f6ce64",
-      "Present": "0",
-      "Participation": "0",
-      "week": "3"
-    },
-    {
-      "firstName": "Tessa",
-      "lastName": "Ramsay",
-      "id": "612ce9ea74e8d011de8bbf6b",
-      "Present": "0",
-      "Participation": "0",
-      "week": "10"
-    },
-    {
-      "firstName": "Shepard",
-      "lastName": "Ramsay",
-      "id": "612ce9ea3aa10b63ab194d55",
-      "Present": "0",
-      "Participation": "0",
-      "week": "10"
-    },
-    {
-      "firstName": "Faith",
-      "lastName": "Ramsay",
-      "id": "612ce9eaa5952d055b34636f",
-      "Present": "0",
-      "Participation": "0",
-      "week": "6"
-    },
-    {
-      "firstName": "Oneill",
-      "lastName": "Ramsay",
-      "id": "612ce9eab2b70fa7944b07b3",
-      "Present": "0",
-      "Participation": "0",
-      "week": "1"
-    },
-    {
-      "firstName": "Castaneda",
-      "lastName": "Ramsay",
-      "id": "612ce9eada6278b2a0719fad",
+      "firstName": "Ria",
+      "lastName": "Singh",
+      "username": "z5206196",
+      "email": "ria.singh@student.unsw.edu.au",
       "Present": 0,
       "Participation": 0,
-      "week": "2"
+      "week": 2,
+      "id": 23
     },
     {
-      "firstName": "Angel",
-      "lastName": "Ramsay",
-      "id": "612ce9ea3b2deda7d1536825",
+      "firstName": "Stephen",
+      "lastName": "Chow",
+      "username": "z5206874",
+      "email": "s.chow@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 24
+    },
+    {
+      "firstName": "Bao",
+      "lastName": "Pham",
+      "username": "z5208035",
+      "email": "bao.pham@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 25
+    },
+    {
+      "firstName": "Shuwen",
+      "lastName": "Mai",
+      "username": "z5213023",
+      "email": "shuwen.mai111@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 26
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Liang",
+      "username": "z5207776",
+      "email": "martin.liang1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 27
+    },
+    {
+      "firstName": "Harinn",
+      "lastName": "Devapragash",
+      "username": "z5214860",
+      "email": "h.devapragash@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 28
+    },
+    {
+      "firstName": "Darsiken",
+      "lastName": "Nagarajan",
+      "username": "z5206603",
+      "email": "d.nagarajan@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 29
+    },
+    {
+      "firstName": "Yuqi",
+      "lastName": "Guo",
+      "username": "z5236463",
+      "email": "yuqi.guo1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 30
+    },
+    {
+      "firstName": "Leah",
+      "lastName": "Jin",
+      "username": "z5257692",
+      "email": "leah.jin@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 31
+    },
+    {
+      "firstName": "Fiona",
+      "lastName": "Chen",
+      "username": "z5259562",
+      "email": "fiona.chen.1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 32
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Shao",
+      "username": "z5261820",
+      "email": "zilin.shao@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 33
+    },
+    {
+      "firstName": "Maximilien",
+      "lastName": "Balard",
+      "username": "z5256073",
+      "email": "m.balard@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 34
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Day",
+      "username": "z5255167",
+      "email": "luke.day@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 35
+    },
+    {
+      "firstName": "Henna",
+      "lastName": "Ali",
+      "username": "z5264500",
+      "email": "h.ali@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 36
+    },
+    {
+      "firstName": "Justin Hwee Keat",
+      "lastName": "Lim",
+      "username": "z5181194",
+      "email": "justinhweekeat.lim@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 37
+    },
+    {
+      "firstName": "Bryan Nathaniel",
+      "lastName": "Kartasaputra",
+      "username": "z5281923",
+      "email": "b.kartasaputra@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 38
+    },
+    {
+      "firstName": "Atta",
+      "lastName": "Ng",
+      "username": "z5274069",
+      "email": "tszching.ng@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 2,
+      "id": 39
+    },
+    {
+      "firstName": "Yuyu",
+      "lastName": "Ma",
+      "username": "z5122500",
+      "email": "yuyu.ma@student.unsw.edu.au",
       "Present": "0",
       "Participation": "0",
-      "week": "6"
+      "week": 3,
+      "id": 40
     },
     {
-      "firstName": "Rosanna",
-      "lastName": "Ramsay",
-      "id": "612ce9eac073c2c2a3790978",
-      "Present": 1,
-      "Participation": 1,
-      "week": "5"
-    },
-    {
-      "firstName": "Cameron",
-      "lastName": "Ramsay",
-      "id": "612ce9ea132c59079f40c537",
+      "firstName": "Leonard",
+      "lastName": "The",
+      "username": "z5190311",
+      "email": "l.the@student.unsw.edu.au",
       "Present": "0",
       "Participation": "0",
-      "week": "1"
+      "week": 3,
+      "id": 41
     },
     {
-      "firstName": "Downs",
-      "lastName": "Ramsay",
-      "id": "612ce9ea5c01ec92b975a9b8",
-      "Present": 1,
-      "Participation": 1,
-      "week": "5"
-    },
-    {
-      "firstName": "Cathleen",
-      "lastName": "Ramsay",
-      "id": "612ce9eabb3db282ae9212c6",
-      "Present": 0,
-      "Participation": 0,
-      "week": "4"
-    },
-    {
-      "firstName": "Dorothy",
-      "lastName": "Ramsay",
-      "id": "612ce9eafdaf0725ae913c5f",
-      "Present": 0,
-      "Participation": 0,
-      "week": "7"
-    },
-    {
-      "firstName": "Church",
-      "lastName": "Ramsay",
-      "id": "612ce9eaa8c9e93700b541a4",
-      "Present": 0,
-      "Participation": 0,
-      "week": "2"
-    },
-    {
-      "firstName": "Fuller",
-      "lastName": "Ramsay",
-      "id": "612ce9ea06b398e2ab37c062",
-      "Present": 0,
-      "Participation": 0,
-      "week": "2"
-    },
-    {
-      "firstName": "Alison",
-      "lastName": "Ramsay",
-      "id": "612ce9eaffc2abd10b049bb4",
+      "firstName": "Grace",
+      "lastName": "Wong",
+      "username": "z5204812",
+      "email": "grace.wong2@student.unsw.edu.au",
       "Present": "0",
       "Participation": "0",
-      "week": "1"
+      "week": 3,
+      "id": 42
     },
     {
-      "firstName": "Sharpe",
-      "lastName": "Ramsay",
-      "id": "612ce9ea7a7692721e0902f9",
-      "Present": 0,
-      "Participation": 0,
-      "week": "4"
-    },
-    {
-      "firstName": "Lou",
-      "lastName": "Ramsay",
-      "id": "612ce9eadbf17e017fd4ab69",
-      "Present": 0,
-      "Participation": 0,
-      "week": "9"
-    },
-    {
-      "firstName": "Walker",
-      "lastName": "Ramsay",
-      "id": "612ce9ea601e24399a4e3ff1",
-      "Present": 0,
-      "Participation": 0,
-      "week": "2"
-    },
-    {
-      "firstName": "Shelby",
-      "lastName": "Ramsay",
-      "id": "612ce9ea2de552578127aa69",
-      "Present": 0,
-      "Participation": 0,
-      "week": "8"
-    },
-    {
-      "firstName": "Anubhav",
-      "lastName": "Ashish",
-      "id": 1630381830261,
+      "firstName": "Ria",
+      "lastName": "Singh",
+      "username": "z5206196",
+      "email": "ria.singh@student.unsw.edu.au",
       "Present": "0",
       "Participation": "0",
-      "week": "6"
+      "week": 3,
+      "id": 43
     },
     {
-      "firstName": "Danii",
-      "lastName": "Minogue",
-      "id": 1630396431733,
+      "firstName": "Stephen",
+      "lastName": "Chow",
+      "username": "z5206874",
+      "email": "s.chow@student.unsw.edu.au",
       "Present": "0",
       "Participation": "0",
-      "week": "1"
+      "week": 3,
+      "id": 44
     },
     {
-      "firstName": "Gordon",
-      "lastName": "Eastwood",
-      "id": 1630396528332,
-      "Present": 1,
+      "firstName": "Bao",
+      "lastName": "Pham",
+      "username": "z5208035",
+      "email": "bao.pham@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 45
+    },
+    {
+      "firstName": "Shuwen",
+      "lastName": "Mai",
+      "username": "z5213023",
+      "email": "shuwen.mai111@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 46
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Liang",
+      "username": "z5207776",
+      "email": "martin.liang1@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 47
+    },
+    {
+      "firstName": "Harinn",
+      "lastName": "Devapragash",
+      "username": "z5214860",
+      "email": "h.devapragash@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 48
+    },
+    {
+      "firstName": "Darsiken",
+      "lastName": "Nagarajan",
+      "username": "z5206603",
+      "email": "d.nagarajan@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 49
+    },
+    {
+      "firstName": "Yuqi",
+      "lastName": "Guo",
+      "username": "z5236463",
+      "email": "yuqi.guo1@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 50
+    },
+    {
+      "firstName": "Leah",
+      "lastName": "Jin",
+      "username": "z5257692",
+      "email": "leah.jin@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 51
+    },
+    {
+      "firstName": "Fiona",
+      "lastName": "Chen",
+      "username": "z5259562",
+      "email": "fiona.chen.1@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 52
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Shao",
+      "username": "z5261820",
+      "email": "zilin.shao@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 53
+    },
+    {
+      "firstName": "Maximilien",
+      "lastName": "Balard",
+      "username": "z5256073",
+      "email": "m.balard@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 54
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Day",
+      "username": "z5255167",
+      "email": "luke.day@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 55
+    },
+    {
+      "firstName": "Henna",
+      "lastName": "Ali",
+      "username": "z5264500",
+      "email": "h.ali@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 56
+    },
+    {
+      "firstName": "Justin Hwee Keat",
+      "lastName": "Lim",
+      "username": "z5181194",
+      "email": "justinhweekeat.lim@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 57
+    },
+    {
+      "firstName": "Bryan Nathaniel",
+      "lastName": "Kartasaputra",
+      "username": "z5281923",
+      "email": "b.kartasaputra@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 58
+    },
+    {
+      "firstName": "Atta",
+      "lastName": "Ng",
+      "username": "z5274069",
+      "email": "tszching.ng@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 3,
+      "id": 59
+    },
+    {
+      "firstName": "Yuyu",
+      "lastName": "Ma",
+      "username": "z5122500",
+      "email": "yuyu.ma@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 60
+    },
+    {
+      "firstName": "Leonard",
+      "lastName": "The",
+      "username": "z5190311",
+      "email": "l.the@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 61
+    },
+    {
+      "firstName": "Grace",
+      "lastName": "Wong",
+      "username": "z5204812",
+      "email": "grace.wong2@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 62
+    },
+    {
+      "firstName": "Ria",
+      "lastName": "Singh",
+      "username": "z5206196",
+      "email": "ria.singh@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 63
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Chow",
+      "username": "z5206874",
+      "email": "s.chow@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 64
+    },
+    {
+      "firstName": "Bao",
+      "lastName": "Pham",
+      "username": "z5208035",
+      "email": "bao.pham@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 65
+    },
+    {
+      "firstName": "Shuwen",
+      "lastName": "Mai",
+      "username": "z5213023",
+      "email": "shuwen.mai111@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 66
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Liang",
+      "username": "z5207776",
+      "email": "martin.liang1@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 67
+    },
+    {
+      "firstName": "Harinn",
+      "lastName": "Devapragash",
+      "username": "z5214860",
+      "email": "h.devapragash@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 68
+    },
+    {
+      "firstName": "Darsiken",
+      "lastName": "Nagarajan",
+      "username": "z5206603",
+      "email": "d.nagarajan@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 69
+    },
+    {
+      "firstName": "Yuqi",
+      "lastName": "Guo",
+      "username": "z5236463",
+      "email": "yuqi.guo1@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 70
+    },
+    {
+      "firstName": "Leah",
+      "lastName": "Jin",
+      "username": "z5257692",
+      "email": "leah.jin@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 71
+    },
+    {
+      "firstName": "Fiona",
+      "lastName": "Chen",
+      "username": "z5259562",
+      "email": "fiona.chen.1@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 72
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Shao",
+      "username": "z5261820",
+      "email": "zilin.shao@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 73
+    },
+    {
+      "firstName": "Maximilien",
+      "lastName": "Balard",
+      "username": "z5256073",
+      "email": "m.balard@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 74
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Day",
+      "username": "z5255167",
+      "email": "luke.day@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 75
+    },
+    {
+      "firstName": "Henna",
+      "lastName": "Ali",
+      "username": "z5264500",
+      "email": "h.ali@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 76
+    },
+    {
+      "firstName": "Justin Hwee Keat",
+      "lastName": "Lim",
+      "username": "z5181194",
+      "email": "justinhweekeat.lim@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 77
+    },
+    {
+      "firstName": "Bryan Nathaniel",
+      "lastName": "Kartasaputra",
+      "username": "z5281923",
+      "email": "b.kartasaputra@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 78
+    },
+    {
+      "firstName": "Atta",
+      "lastName": "Ng",
+      "username": "z5274069",
+      "email": "tszching.ng@student.unsw.edu.au",
+      "Present": "0",
+      "Participation": "0",
+      "week": 4,
+      "id": 79
+    },
+    {
+      "firstName": "Yuyu",
+      "lastName": "Ma",
+      "username": "z5122500",
+      "email": "yuyu.ma@student.unsw.edu.au",
+      "Present": 0,
       "Participation": 0,
-      "week": "9"
+      "week": 5,
+      "id": 80
+    },
+    {
+      "firstName": "Leonard",
+      "lastName": "The",
+      "username": "z5190311",
+      "email": "l.the@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 81
+    },
+    {
+      "firstName": "Grace",
+      "lastName": "Wong",
+      "username": "z5204812",
+      "email": "grace.wong2@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 82
+    },
+    {
+      "firstName": "Ria",
+      "lastName": "Singh",
+      "username": "z5206196",
+      "email": "ria.singh@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 83
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Chow",
+      "username": "z5206874",
+      "email": "s.chow@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 84
+    },
+    {
+      "firstName": "Bao",
+      "lastName": "Pham",
+      "username": "z5208035",
+      "email": "bao.pham@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 85
+    },
+    {
+      "firstName": "Shuwen",
+      "lastName": "Mai",
+      "username": "z5213023",
+      "email": "shuwen.mai111@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 86
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Liang",
+      "username": "z5207776",
+      "email": "martin.liang1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 87
+    },
+    {
+      "firstName": "Harinn",
+      "lastName": "Devapragash",
+      "username": "z5214860",
+      "email": "h.devapragash@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 88
+    },
+    {
+      "firstName": "Darsiken",
+      "lastName": "Nagarajan",
+      "username": "z5206603",
+      "email": "d.nagarajan@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 89
+    },
+    {
+      "firstName": "Yuqi",
+      "lastName": "Guo",
+      "username": "z5236463",
+      "email": "yuqi.guo1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 90
+    },
+    {
+      "firstName": "Leah",
+      "lastName": "Jin",
+      "username": "z5257692",
+      "email": "leah.jin@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 91
+    },
+    {
+      "firstName": "Fiona",
+      "lastName": "Chen",
+      "username": "z5259562",
+      "email": "fiona.chen.1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 92
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Shao",
+      "username": "z5261820",
+      "email": "zilin.shao@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 93
+    },
+    {
+      "firstName": "Maximilien",
+      "lastName": "Balard",
+      "username": "z5256073",
+      "email": "m.balard@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 94
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Day",
+      "username": "z5255167",
+      "email": "luke.day@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 95
+    },
+    {
+      "firstName": "Henna",
+      "lastName": "Ali",
+      "username": "z5264500",
+      "email": "h.ali@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 96
+    },
+    {
+      "firstName": "Justin Hwee Keat",
+      "lastName": "Lim",
+      "username": "z5181194",
+      "email": "justinhweekeat.lim@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 97
+    },
+    {
+      "firstName": "Bryan Nathaniel",
+      "lastName": "Kartasaputra",
+      "username": "z5281923",
+      "email": "b.kartasaputra@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 98
+    },
+    {
+      "firstName": "Atta",
+      "lastName": "Ng",
+      "username": "z5274069",
+      "email": "tszching.ng@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 5,
+      "id": 99
+    },
+    {
+      "firstName": "Yuyu",
+      "lastName": "Ma",
+      "username": "z5122500",
+      "email": "yuyu.ma@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 100
+    },
+    {
+      "firstName": "Leonard",
+      "lastName": "The",
+      "username": "z5190311",
+      "email": "l.the@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 101
+    },
+    {
+      "firstName": "Grace",
+      "lastName": "Wong",
+      "username": "z5204812",
+      "email": "grace.wong2@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 102
+    },
+    {
+      "firstName": "Ria",
+      "lastName": "Singh",
+      "username": "z5206196",
+      "email": "ria.singh@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 103
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Chow",
+      "username": "z5206874",
+      "email": "s.chow@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 104
+    },
+    {
+      "firstName": "Bao",
+      "lastName": "Pham",
+      "username": "z5208035",
+      "email": "bao.pham@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 105
+    },
+    {
+      "firstName": "Shuwen",
+      "lastName": "Mai",
+      "username": "z5213023",
+      "email": "shuwen.mai111@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 106
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Liang",
+      "username": "z5207776",
+      "email": "martin.liang1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 107
+    },
+    {
+      "firstName": "Harinn",
+      "lastName": "Devapragash",
+      "username": "z5214860",
+      "email": "h.devapragash@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 108
+    },
+    {
+      "firstName": "Darsiken",
+      "lastName": "Nagarajan",
+      "username": "z5206603",
+      "email": "d.nagarajan@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 109
+    },
+    {
+      "firstName": "Yuqi",
+      "lastName": "Guo",
+      "username": "z5236463",
+      "email": "yuqi.guo1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 110
+    },
+    {
+      "firstName": "Leah",
+      "lastName": "Jin",
+      "username": "z5257692",
+      "email": "leah.jin@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 111
+    },
+    {
+      "firstName": "Fiona",
+      "lastName": "Chen",
+      "username": "z5259562",
+      "email": "fiona.chen.1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 112
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Shao",
+      "username": "z5261820",
+      "email": "zilin.shao@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 113
+    },
+    {
+      "firstName": "Maximilien",
+      "lastName": "Balard",
+      "username": "z5256073",
+      "email": "m.balard@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 114
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Day",
+      "username": "z5255167",
+      "email": "luke.day@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 115
+    },
+    {
+      "firstName": "Henna",
+      "lastName": "Ali",
+      "username": "z5264500",
+      "email": "h.ali@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 116
+    },
+    {
+      "firstName": "Justin Hwee Keat",
+      "lastName": "Lim",
+      "username": "z5181194",
+      "email": "justinhweekeat.lim@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 117
+    },
+    {
+      "firstName": "Bryan Nathaniel",
+      "lastName": "Kartasaputra",
+      "username": "z5281923",
+      "email": "b.kartasaputra@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 118
+    },
+    {
+      "firstName": "Atta",
+      "lastName": "Ng",
+      "username": "z5274069",
+      "email": "tszching.ng@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 6,
+      "id": 119
+    },
+    {
+      "firstName": "Yuyu",
+      "lastName": "Ma",
+      "username": "z5122500",
+      "email": "yuyu.ma@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 120
+    },
+    {
+      "firstName": "Leonard",
+      "lastName": "The",
+      "username": "z5190311",
+      "email": "l.the@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 121
+    },
+    {
+      "firstName": "Grace",
+      "lastName": "Wong",
+      "username": "z5204812",
+      "email": "grace.wong2@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 122
+    },
+    {
+      "firstName": "Ria",
+      "lastName": "Singh",
+      "username": "z5206196",
+      "email": "ria.singh@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 123
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Chow",
+      "username": "z5206874",
+      "email": "s.chow@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 124
+    },
+    {
+      "firstName": "Bao",
+      "lastName": "Pham",
+      "username": "z5208035",
+      "email": "bao.pham@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 125
+    },
+    {
+      "firstName": "Shuwen",
+      "lastName": "Mai",
+      "username": "z5213023",
+      "email": "shuwen.mai111@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 126
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Liang",
+      "username": "z5207776",
+      "email": "martin.liang1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 127
+    },
+    {
+      "firstName": "Harinn",
+      "lastName": "Devapragash",
+      "username": "z5214860",
+      "email": "h.devapragash@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 128
+    },
+    {
+      "firstName": "Darsiken",
+      "lastName": "Nagarajan",
+      "username": "z5206603",
+      "email": "d.nagarajan@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 129
+    },
+    {
+      "firstName": "Yuqi",
+      "lastName": "Guo",
+      "username": "z5236463",
+      "email": "yuqi.guo1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 130
+    },
+    {
+      "firstName": "Leah",
+      "lastName": "Jin",
+      "username": "z5257692",
+      "email": "leah.jin@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 131
+    },
+    {
+      "firstName": "Fiona",
+      "lastName": "Chen",
+      "username": "z5259562",
+      "email": "fiona.chen.1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 132
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Shao",
+      "username": "z5261820",
+      "email": "zilin.shao@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 133
+    },
+    {
+      "firstName": "Maximilien",
+      "lastName": "Balard",
+      "username": "z5256073",
+      "email": "m.balard@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 134
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Day",
+      "username": "z5255167",
+      "email": "luke.day@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 135
+    },
+    {
+      "firstName": "Henna",
+      "lastName": "Ali",
+      "username": "z5264500",
+      "email": "h.ali@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 136
+    },
+    {
+      "firstName": "Justin Hwee Keat",
+      "lastName": "Lim",
+      "username": "z5181194",
+      "email": "justinhweekeat.lim@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 137
+    },
+    {
+      "firstName": "Bryan Nathaniel",
+      "lastName": "Kartasaputra",
+      "username": "z5281923",
+      "email": "b.kartasaputra@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 138
+    },
+    {
+      "firstName": "Atta",
+      "lastName": "Ng",
+      "username": "z5274069",
+      "email": "tszching.ng@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 7,
+      "id": 139
+    },
+    {
+      "firstName": "Yuyu",
+      "lastName": "Ma",
+      "username": "z5122500",
+      "email": "yuyu.ma@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 140
+    },
+    {
+      "firstName": "Leonard",
+      "lastName": "The",
+      "username": "z5190311",
+      "email": "l.the@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 141
+    },
+    {
+      "firstName": "Grace",
+      "lastName": "Wong",
+      "username": "z5204812",
+      "email": "grace.wong2@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 142
+    },
+    {
+      "firstName": "Ria",
+      "lastName": "Singh",
+      "username": "z5206196",
+      "email": "ria.singh@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 143
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Chow",
+      "username": "z5206874",
+      "email": "s.chow@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 144
+    },
+    {
+      "firstName": "Bao",
+      "lastName": "Pham",
+      "username": "z5208035",
+      "email": "bao.pham@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 145
+    },
+    {
+      "firstName": "Shuwen",
+      "lastName": "Mai",
+      "username": "z5213023",
+      "email": "shuwen.mai111@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 146
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Liang",
+      "username": "z5207776",
+      "email": "martin.liang1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 147
+    },
+    {
+      "firstName": "Harinn",
+      "lastName": "Devapragash",
+      "username": "z5214860",
+      "email": "h.devapragash@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 148
+    },
+    {
+      "firstName": "Darsiken",
+      "lastName": "Nagarajan",
+      "username": "z5206603",
+      "email": "d.nagarajan@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 149
+    },
+    {
+      "firstName": "Yuqi",
+      "lastName": "Guo",
+      "username": "z5236463",
+      "email": "yuqi.guo1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 150
+    },
+    {
+      "firstName": "Leah",
+      "lastName": "Jin",
+      "username": "z5257692",
+      "email": "leah.jin@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 151
+    },
+    {
+      "firstName": "Fiona",
+      "lastName": "Chen",
+      "username": "z5259562",
+      "email": "fiona.chen.1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 152
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Shao",
+      "username": "z5261820",
+      "email": "zilin.shao@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 153
+    },
+    {
+      "firstName": "Maximilien",
+      "lastName": "Balard",
+      "username": "z5256073",
+      "email": "m.balard@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 154
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Day",
+      "username": "z5255167",
+      "email": "luke.day@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 155
+    },
+    {
+      "firstName": "Henna",
+      "lastName": "Ali",
+      "username": "z5264500",
+      "email": "h.ali@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 156
+    },
+    {
+      "firstName": "Justin Hwee Keat",
+      "lastName": "Lim",
+      "username": "z5181194",
+      "email": "justinhweekeat.lim@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 157
+    },
+    {
+      "firstName": "Bryan Nathaniel",
+      "lastName": "Kartasaputra",
+      "username": "z5281923",
+      "email": "b.kartasaputra@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 158
+    },
+    {
+      "firstName": "Atta",
+      "lastName": "Ng",
+      "username": "z5274069",
+      "email": "tszching.ng@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 8,
+      "id": 159
+    },
+    {
+      "firstName": "Yuyu",
+      "lastName": "Ma",
+      "username": "z5122500",
+      "email": "yuyu.ma@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 160
+    },
+    {
+      "firstName": "Leonard",
+      "lastName": "The",
+      "username": "z5190311",
+      "email": "l.the@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 161
+    },
+    {
+      "firstName": "Grace",
+      "lastName": "Wong",
+      "username": "z5204812",
+      "email": "grace.wong2@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 162
+    },
+    {
+      "firstName": "Ria",
+      "lastName": "Singh",
+      "username": "z5206196",
+      "email": "ria.singh@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 163
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Chow",
+      "username": "z5206874",
+      "email": "s.chow@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 164
+    },
+    {
+      "firstName": "Bao",
+      "lastName": "Pham",
+      "username": "z5208035",
+      "email": "bao.pham@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 165
+    },
+    {
+      "firstName": "Shuwen",
+      "lastName": "Mai",
+      "username": "z5213023",
+      "email": "shuwen.mai111@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 166
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Liang",
+      "username": "z5207776",
+      "email": "martin.liang1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 167
+    },
+    {
+      "firstName": "Harinn",
+      "lastName": "Devapragash",
+      "username": "z5214860",
+      "email": "h.devapragash@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 168
+    },
+    {
+      "firstName": "Darsiken",
+      "lastName": "Nagarajan",
+      "username": "z5206603",
+      "email": "d.nagarajan@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 169
+    },
+    {
+      "firstName": "Yuqi",
+      "lastName": "Guo",
+      "username": "z5236463",
+      "email": "yuqi.guo1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 170
+    },
+    {
+      "firstName": "Leah",
+      "lastName": "Jin",
+      "username": "z5257692",
+      "email": "leah.jin@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 171
+    },
+    {
+      "firstName": "Fiona",
+      "lastName": "Chen",
+      "username": "z5259562",
+      "email": "fiona.chen.1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 172
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Shao",
+      "username": "z5261820",
+      "email": "zilin.shao@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 173
+    },
+    {
+      "firstName": "Maximilien",
+      "lastName": "Balard",
+      "username": "z5256073",
+      "email": "m.balard@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 174
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Day",
+      "username": "z5255167",
+      "email": "luke.day@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 175
+    },
+    {
+      "firstName": "Henna",
+      "lastName": "Ali",
+      "username": "z5264500",
+      "email": "h.ali@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 176
+    },
+    {
+      "firstName": "Justin Hwee Keat",
+      "lastName": "Lim",
+      "username": "z5181194",
+      "email": "justinhweekeat.lim@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 177
+    },
+    {
+      "firstName": "Bryan Nathaniel",
+      "lastName": "Kartasaputra",
+      "username": "z5281923",
+      "email": "b.kartasaputra@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 178
+    },
+    {
+      "firstName": "Atta",
+      "lastName": "Ng",
+      "username": "z5274069",
+      "email": "tszching.ng@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 9,
+      "id": 179
+    },
+    {
+      "firstName": "Yuyu",
+      "lastName": "Ma",
+      "username": "z5122500",
+      "email": "yuyu.ma@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 180
+    },
+    {
+      "firstName": "Leonard",
+      "lastName": "The",
+      "username": "z5190311",
+      "email": "l.the@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 181
+    },
+    {
+      "firstName": "Grace",
+      "lastName": "Wong",
+      "username": "z5204812",
+      "email": "grace.wong2@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 182
+    },
+    {
+      "firstName": "Ria",
+      "lastName": "Singh",
+      "username": "z5206196",
+      "email": "ria.singh@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 183
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Chow",
+      "username": "z5206874",
+      "email": "s.chow@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 184
+    },
+    {
+      "firstName": "Bao",
+      "lastName": "Pham",
+      "username": "z5208035",
+      "email": "bao.pham@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 185
+    },
+    {
+      "firstName": "Shuwen",
+      "lastName": "Mai",
+      "username": "z5213023",
+      "email": "shuwen.mai111@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 186
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Liang",
+      "username": "z5207776",
+      "email": "martin.liang1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 187
+    },
+    {
+      "firstName": "Harinn",
+      "lastName": "Devapragash",
+      "username": "z5214860",
+      "email": "h.devapragash@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 188
+    },
+    {
+      "firstName": "Darsiken",
+      "lastName": "Nagarajan",
+      "username": "z5206603",
+      "email": "d.nagarajan@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 189
+    },
+    {
+      "firstName": "Yuqi",
+      "lastName": "Guo",
+      "username": "z5236463",
+      "email": "yuqi.guo1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 190
+    },
+    {
+      "firstName": "Leah",
+      "lastName": "Jin",
+      "username": "z5257692",
+      "email": "leah.jin@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 191
+    },
+    {
+      "firstName": "Fiona",
+      "lastName": "Chen",
+      "username": "z5259562",
+      "email": "fiona.chen.1@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 192
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Shao",
+      "username": "z5261820",
+      "email": "zilin.shao@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 193
+    },
+    {
+      "firstName": "Maximilien",
+      "lastName": "Balard",
+      "username": "z5256073",
+      "email": "m.balard@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 194
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Day",
+      "username": "z5255167",
+      "email": "luke.day@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 195
+    },
+    {
+      "firstName": "Henna",
+      "lastName": "Ali",
+      "username": "z5264500",
+      "email": "h.ali@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 196
+    },
+    {
+      "firstName": "Justin Hwee Keat",
+      "lastName": "Lim",
+      "username": "z5181194",
+      "email": "justinhweekeat.lim@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 197
+    },
+    {
+      "firstName": "Bryan Nathaniel",
+      "lastName": "Kartasaputra",
+      "username": "z5281923",
+      "email": "b.kartasaputra@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 198
+    },
+    {
+      "firstName": "Atta",
+      "lastName": "Ng",
+      "username": "z5274069",
+      "email": "tszching.ng@student.unsw.edu.au",
+      "Present": 0,
+      "Participation": 0,
+      "week": 10,
+      "id": 199
     }
   ]
 }
