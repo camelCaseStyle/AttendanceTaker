@@ -50,6 +50,9 @@ td, th{
     div > .week-list{
         width: 76%;
     }
+    .container{
+        padding: 0;
+    }
 }
 @media(max-width:750px){
     body{
@@ -68,6 +71,9 @@ td, th{
     .container-fluid{
         flex-direction: column;
         justify-content: space-around;
+    }
+    .container{
+        padding: 0;
     }
    
     table{
@@ -89,6 +95,9 @@ td, th{
         }
         div > .week-list{
             width: 76%;
+        }
+        .container{
+            padding: 0;
         }
 }
 
