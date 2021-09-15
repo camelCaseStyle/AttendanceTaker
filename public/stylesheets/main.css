@@ -1,12 +1,5 @@
-html {
-    overflow: hidden;
-    height: 100%;
-}
+html, body {width: auto!important; overflow-x: hidden!important} 
 
-body {
-    height: 100%;
-    overflow: auto;
-}
 .container{
     border: 2px solid black;
     border-radius: 2em;
