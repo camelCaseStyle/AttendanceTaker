@@ -16,8 +16,12 @@ body {
     padding: 1em;
 }
 
-.new-name-row{
+/* .new-name-row{
     margin: 0 6vw;
+} */
+
+#all-buttons{
+    margin: 0 auto;
 }
 td, th{
     text-align: center;
@@ -64,8 +68,9 @@ td, th{
     .new-name-row > div{
         margin: 2px;
     } 
-    #submit,#clear-attendance{
+    #submit,#clear-attendance, #add-to-all-weeks, #add-student-to-all-weeks{
         width: 100%;
+        margin-top: 1em;
     }
     .container-fluid{
         flex-direction: column;
@@ -110,4 +115,10 @@ td, th{
 
 .week-list:hover{
     color: aliceblue;
+}
+#make-all-present,
+#make-all-participate{
+    background:none;
+    border: none;
+    font-weight: inherit;
 }

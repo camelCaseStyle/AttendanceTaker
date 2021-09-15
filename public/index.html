@@ -32,17 +32,28 @@
     <form class="row" id="add-student">
       <div class="new-name-row row">
           <div class="col-lg-3 col-md-3 col-sm-12">
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name" name="firstName" required>
+            <input id="firstName" type="text" class="form-control" placeholder="First name" aria-label="First name" name="firstName" required>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12">
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" name="lastName" required>
+            <input id ="lastName" type="text" class="form-control" placeholder="Last name" aria-label="Last name" name="lastName" required>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12">
-              <button id="submit" type="submit" class="btn btn-primary">Add student</button>
+            <input id ="username" type="text" class="form-control" placeholder="zID" aria-label="zID" name="zID" required>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12">
+            <input id ="email" type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" name="email" required>
+          </div>
+         <div class="row" id="all-buttons">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <button id="submit" type="submit" name="add-to-one-week"class="btn btn-primary" name="add-student" value="add-student">Add to this week</button>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <button id="add-student-to-all-weeks" name="add-student-to-all-weeks" type="button" class="btn btn-primary">Add to all weeks</button>
+        </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
             <button id="clear-attendance" type="submit" class="btn btn-danger">Clear all</button>
         </div>
+         </div>
         </div>
     </form>
   <table class="table" id="attendance-table">
@@ -50,8 +61,8 @@
         <tr>
           <th scope="col">First name</th>
           <th scope="col">Last name</th>
-          <th scope="col">Present</th>
-          <th scope="col">Class participation</th>
+          <th scope="col"> <button id="make-all-present">Present</button></th>
+          <th scope="col"><button id="make-all-participate">Participation</button></th>
           <th scope="col"></th>
         </tr>
         <tbody id="students-list">

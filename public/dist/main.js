@@ -50,6 +50,12 @@ function bindings(){
     }
     let clearAttendance = document.getElementById('clear-attendance');
     if(clearAttendance) clearAttendance.addEventListener('click',clearAll);
+    let addToAllWeeks = document.getElementById('add-student-to-all-weeks');
+    if(addToAllWeeks) addToAllWeeks.addEventListener('click', addStudentToAllWeeks);
+    let markAllPresent = document.getElementById('make-all-present');
+    if(markAllPresent) markAllPresent.addEventListener('click', markAllStudentsPresent);
+    let markAllParticpate = document.getElementById('make-all-participate');
+    if(markAllParticpate) markAllParticpate.addEventListener('click', markAllStudentsParticipate);
     applyCheckBoxes();
 }
 
@@ -79,14 +85,44 @@ function addStudent(e){
     let student = {
         firstName: this.elements['firstName'].value,
         lastName: this.elements['lastName'].value,
+        email : this.elements['email'].value,
+        username : this.elements['username'].value,
         id: Date.now(),
         Present: 1,
         Participation: 0,
-        week:Util.splitHash(window.location.hash).id
+        week:parseInt(Util.splitHash(window.location.hash).id)
     }
     let addStudentForm = document.getElementById('add-student');
     addStudentForm.reset();
     Model.addStudent(student);
+}
+
+function addStudentToAllWeeks(e){
+    e.preventDefault(); 
+    let weeks = Model.getWeeksList();
+    let form = document.getElementById('add-student');
+    let firstName=  document.getElementById('firstName').value;
+    let lastName= document.getElementById('lastName').value;
+    let email = document.getElementById('email').value; 
+    let username = document.getElementById('username').value; 
+    if(!firstName || !lastName || !email || !username){
+        form.reportValidity();
+        return;
+    }
+    let students = []; 
+    weeks.forEach(week =>{
+        students.push({
+            firstName: firstName,
+            lastName: lastName,
+            id: `${Date.now()}_${week}`,
+            Present: 0,
+            Participation: 0,
+            email: email, 
+            username:username,
+            week:parseInt(week)
+        });
+    })
+    Model.addStudent(students);
 }
 
 function deleteButtonClicked(e){
@@ -120,10 +156,26 @@ function clearAll(e){
         checkBoxesPresent[i].checked = false; 
         checkBoxesParticpation[i].checked = false; 
         let student = Model.getAStudent(checkBoxesPresent[i].dataset.id);
-        student.Participation = '0'; 
-        student.Present = '0';   
+        student.Participation =  0; 
+        student.Present = 0;   
         students.push(student);
     }
+    Model.updateStudent(students);
+}
+function markAllStudentsPresent(e){
+    e.preventDefault();
+    let students = Model.getAllStudentsByWeek(Util.splitHash(window.location.hash).id);
+    students.forEach(student =>{
+        student.Present = 1; 
+    })
+    Model.updateStudent(students);
+}
+function markAllStudentsParticipate(e){
+    e.preventDefault();
+    let students = Model.getAllStudentsByWeek(Util.splitHash(window.location.hash).id);
+    students.forEach(student =>{
+        student.Participation = 1; 
+    })
     Model.updateStudent(students);
 }
 window.onhashchange = function(){

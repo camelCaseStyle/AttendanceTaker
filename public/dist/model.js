@@ -29,15 +29,22 @@ const Model ={
         }
     },
     addStudent: function(student){
-        fetch(this.addStudentURI,{
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            }, 
-            body: JSON.stringify(student)
-        }).then(response =>{
-            return response.json()
-        }).then(data=>{
+        let promises = [];
+        let students = [].concat(student || []);
+        students.forEach(student =>{
+            promises.push(
+                fetch(this.addStudentURI,{
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }, 
+                    body: JSON.stringify(student)
+                }).then(response =>{
+                    return response.json()
+                })
+            )
+        })
+        Promise.all(promises).then(()=>{ 
             let event = new CustomEvent('studentAdded');
             window.dispatchEvent(event);
         })
