@@ -105,7 +105,7 @@ function addStudentToAllWeeks(e){
     let lastName= document.getElementById('lastName').value;
     let email = document.getElementById('email').value; 
     let username = document.getElementById('username').value; 
-    if(!firstName || !lastName || !email || !username){
+    if(!firstName || !lastName){
         form.reportValidity();
         return;
     }
