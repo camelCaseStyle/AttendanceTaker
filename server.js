@@ -2,7 +2,7 @@ import express from 'express';
 import { Low, JSONFile } from 'lowdb'
 import { join, dirname } from 'path'
 
-
+// added a new comment for git 
 const __dirname = dirname('db.json');
 const file = join(__dirname, 'db.json');
 const adapter = new JSONFile(file);
